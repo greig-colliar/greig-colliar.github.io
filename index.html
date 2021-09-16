@@ -32,7 +32,6 @@
 <!-- <link rel="prev" href="http://localhost/" /> -->
 <!-- End Jekyll SEO tag -->
 
-
 <!-- Load Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
@@ -44,6 +43,7 @@
   <link rel="stylesheet" href="assets/css/animate.css" />
   <link rel="stylesheet" href="assets/css/owl.carousel.css" />
   <link rel="stylesheet" href="assets/css/syntax.css" />
+
   <!-- Template RTL -->
 
   <!-- Template Colors -->
@@ -214,11 +214,15 @@
 
   <!--Profile -->
   <div class="profile no-photo">
+	<!-- <div class="profile"> comment if dont want photo -->
 
     <!-- profile image -->
-    <div class="slide" style="background-image: url(port2/assets/img/bg.jpg);"></div>
+    <div class="slide" style="background-image: url(assets/img/bg.jpg);"></div>
 
-    <!-- profile photo -->
+    <!-- profile photo / comment if don't want photo -->
+		<!-- <div class="image">
+			<img src="images/profile.png" alt="" />
+		</div> -->
     
     <!-- profile titles -->
     <div class="title">Greig Colliar</div>
@@ -238,23 +242,17 @@
 
     <!-- profile socials -->
     <div class="social">
-      
-      <a target="_blank" href="https://www.linkedin.com/in/greigcolliar/" title="Dribbble"><span class="fab fa-Linkedin"></span></a>
-      
-      <a target="_blank" href="https://twitter.com/cruxis03" title="Twitter"><span class="fab fa-twitter"></span></a>
-      
+      <a target="_blank" href="https://www.linkedin.com/in/greigcolliar/" title="Linkedin"><span class="fab fa-linkedin"></span></a>
+      <!-- <a target="_blank" href="https://twitter.com" title="Twitter"><span class="fab fa-twitter"></span></a> -->
       <a target="_blank" href="https://github.com/greigac" title="GitHub"><span class="fab fa-github"></span></a>
-      
       <!-- <a target="_blank" href="https://www.spotify.com/" title="Spotify"><span class="fab fa-spotify"></span></a> -->
-      
-      <!-- <a target="_blank" href="https://stackoverflow.com/" title="Stackoverflow"><span class="fab fa-stack-overflow"></span></a> -->
-      
+      <!-- <a target="_blank" href="https://stackoverflow.com/" title="Stackoverflow"><span class="fab fa-stack-overflow"></span></a> -->   
     </div>
     
     <!-- profile buttons -->
     <div class="lnks">
       
-      <a href="https://drive.google.com/" class="lnk">
+      <a href="https://drive.google.com/" class="lnk"> <!-- update this -->
         <span class="text">Download CV</span>
         
       </a>
@@ -280,25 +278,27 @@
 
 	<!-- title -->
 	<div class="title">About Me</div>
-	
+	<style> .margin50 {
+		margin-bottom: -50px;	
+	}
+	</style>
 	<!-- content -->
-	<div class="row">
+	<div class="row margin50">
 		<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
 			<div class="text-box">
-				 <p> <strong>Hello! I’m Greig Colliar.</strong><br> Software Engineer from Scotland. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique. </p> 
+				 <p> <strong>Hello! I’m Greig Colliar.</strong><br> Computing graduate and Software Engineer from Scotland. I have rich experience in web site design and building. I am also interested in Data Analytics (like Warcraftlogs)</p> 
 			</div>
 		</div>
 		<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
 			<div class="info-list">
 				<ul>
 					
-					<li><strong>Age: </strong> 24</li>
-					
-					<li><strong>Residence: </strong> USA</li>
-					
-					<li><strong>Freelance: </strong> Available</li>
-					
-					<li><strong>Address: </strong> California, USA</li>
+					<!-- <li><strong>Age: </strong> 32</li> -->
+					<li><strong>Residence: </strong> UK</li>
+					<li><strong>Edu: </strong> BSc(Hons) Computing</li>
+					<li><strong>Interests: </strong> Data Analytics</li>
+					<li><strong>Other: </strong>E-Sports: WoW, SSBM</li>
+					<!-- <li><strong>Address: </strong> Scotland, UK</li> -->
 					
 				</ul>
 			</div>
@@ -312,7 +312,7 @@
 <div class="content services">
 
 	<!-- title -->
-	<div class="title">My Services</div>
+	<div class="title">My Skills</div>
 	
 	<!-- content -->
 	<div class="row service-items border-line-v">
@@ -321,9 +321,20 @@
 		<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
 			<div class="service-item">
 				<div class="icon"><span class="ion ion-code"></span></div>
-				<div class="name">Web Development</div>
+				<div class="name">Web Programming</div>
 				<p>
-					Modern and mobile-ready website that will help you reach all of your marketing.
+					Efficient in front and backend programming.
+				</p> 
+			</div>
+		</div>
+		
+		<!-- service item -->
+		<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+			<div class="service-item">
+				<div class="icon"><span class="ion ion-cloud"></span></div>
+				<div class="name">AWS / Cloud Computing</div>
+				<p>
+					AWS Solution Architect certified.
 				</p>
 			</div>
 		</div>
@@ -331,32 +342,21 @@
 		<!-- service item -->
 		<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
 			<div class="service-item">
-				<div class="icon"><span class="ion ion-music-note"></span></div>
-				<div class="name">Music Writing</div>
+				<div class="icon"><span class="ion ion-mouse"></span></div>
+				<div class="name">Tech Support</div>
 				<p>
-					Music copying, transcription, arranging and composition services.
-				</p>
+					Experience in providing support in multiple volunteer roles.
+				</p> 
 			</div>
 		</div>
 		
 		<!-- service item -->
-		<div class="col col-d-6 col-t-6 col-m-12">
+		<div class="col col-d-6 col-t-6 col-m-12 border-line-h">
 			<div class="service-item">
-				<div class="icon"><span class="ion ion-speakerphone"></span></div>
-				<div class="name">Advetising</div>
+				<div class="icon"><span class="ion ion-social-windows"></span></div>
+				<div class="name">Windows Server</div>
 				<p>
-					Advertising services include television, radio, print, mail and web.
-				</p>
-			</div>
-		</div>
-		
-		<!-- service item -->
-		<div class="col col-d-6 col-t-6 col-m-12">
-			<div class="service-item">
-				<div class="icon"><span class="ion ion-ios-game-controller-b"></span></div>
-				<div class="name">Game Development</div>
-				<p>
-					Developing memorable and unique mobile android, ios games.
+					Managing Window based servers.
 				</p>
 			</div>
 		</div>
@@ -457,7 +457,7 @@
 <div class="content fuct">
 
 	<!-- title -->
-	<div class="title">Fun Fact</div>
+	<div class="title">My Interests</div>
 	
 	<!-- content -->
 	<div class="row fuct-items">
@@ -465,32 +465,32 @@
 		<!-- fuct item -->
 		<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
 			<div class="fuct-item">
-				<div class="icon"><span class="ion ion-disc"></span></div>
-				<div class="name">80 Albumes Listened</div>
+				<div class="icon"><span class="ion ion-monitor"></span></div>
+				<div class="name">Web Technologies</div>
 			</div>
 		</div>
 		
 		<!-- fuct item -->
 		<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
 			<div class="fuct-item">
-				<div class="icon"><span class="ion ion-trophy"></span></div>
-				<div class="name">15 Awards Won</div>
+				<div class="icon"><span class="ion ion-ios-analytics"></span></div>
+				<div class="name">Data Analytics</div>
 			</div>
 		</div>
 		
 		<!-- fuct item -->
 		<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
 			<div class="fuct-item">
-				<div class="icon"><span class="ion ion-coffee"></span></div>
-				<div class="name">1 000 Cups of coffee</div>
+				<div class="icon"><span class="ion ion-ios-search"></span></div>
+				<div class="name">Problem Solving</div>
 			</div>
 		</div>
 		
 		<!-- fuct item -->
 		<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
 			<div class="fuct-item">
-				<div class="icon"><span class="ion ion-flag"></span></div>
-				<div class="name">10 Countries Visited</div>
+				<div class="icon"><span class="ion ion-social-twitch"></span></div>
+				<div class="name">E Sports</div>
 			</div>
 		</div>
 		
@@ -501,17 +501,17 @@
 </div>
 		
 <!-- Clients -->
-<div class="content clients">
+<!-- <div class="content clients"> -->
 	
 	<!-- title -->
-	<div class="title">Clients</div>
+	<!-- <div class="title">Clients</div> -->
 	
 
 	<!-- content -->
-	<div class="row client-items">
+	<!-- <div class="row client-items"> -->
 		
 		<!-- client item -->
-		<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+		<!-- <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
 			<div class="client-item">
 				<div class="image">
 					<a target="_blank" href="https://www.google.com">
@@ -519,10 +519,10 @@
 					</a>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		
 		<!-- client item -->
-		<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+		<!-- <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
 			<div class="client-item">
 				<div class="image">
 					<a target="_blank" href="https://www.google.com">
@@ -530,10 +530,10 @@
 					</a>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		
 		<!-- client item -->
-		<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+		<!-- <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
 			<div class="client-item">
 				<div class="image">
 					<a target="_blank" href="https://www.google.com">
@@ -541,10 +541,10 @@
 					</a>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		
 		<!-- client item -->
-		<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+		<!-- <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
 			<div class="client-item">
 				<div class="image">
 					<a target="_blank" href="https://www.google.com">
@@ -552,25 +552,25 @@
 					</a>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		
 
-		<div class="clear"></div>
-	</div>
+		<!-- <div class="clear"></div> -->
+	<!-- </div> -->
 
-</div>
+<!-- </div> -->
 		
 <!-- Testimonials -->
-<div class="content testimonials">
+<!-- <div class="content testimonials"> -->
 
 	<!-- title -->
-	<div class="title">Testimonials</div>
+	<!-- <div class="title">Testimonials</div> -->
 	
 	<!-- content -->
-	<div class="row testimonials-items">
+	<!-- <div class="row testimonials-items"> -->
 
 		<!-- client item -->
-		<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+		<!-- <div class="col col-d-12 col-t-12 col-m-12 border-line-v">
 			<div class="revs-carousel default-revs">
 				<div class="owl-carousel">
 					
@@ -624,7 +624,7 @@
 					
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		<div class="clear"></div>
 	</div>
@@ -656,29 +656,29 @@
 			<div class="resume-items">
 				
 				<div class="resume-item border-line-h active">
-					<div class="date">2013 - Present</div>
-					<div class="name">Art Director</div>
-					<div class="company">Facebook Inc.</div>
+					<div class="date">2021 - Present</div>
+					<div class="name">Web Dev & Digital Support volunteer</div>
+					<div class="company">Connect Perth</div>
 					<p>
-						Collaborate with creative and development teams on the execution of ideas.
+						Currently developing a dynamic website and providing tech support.
 					</p>
 				</div>
 				
 				<div class="resume-item border-line-h">
-					<div class="date">2011 - 2012</div>
-					<div class="name">Front-end Developer</div>
-					<div class="company">Google Inc.</div>
+					<div class="date">2019 - 2020</div>
+					<div class="name">ESOL Tech Support volunteer</div>
+					<div class="company">Perth College UHI</div>
 					<p>
-						Monitored technical aspects of the front-end delivery for several projects.
+						Helped with technical support that the lecturer and students required.
 					</p>
 				</div>
 				
 				<div class="resume-item">
-					<div class="date">2009 - 2010</div>
-					<div class="name">Senior Developer</div>
-					<div class="company">Abc Inc.</div>
+					<div class="date">Founder & CEO</div>
+					<div class="name">Web Developer</div>
+					<div class="company">greigac.</div>
 					<p>
-						Optimize website performance using latest technology.
+						Created 4+ websites for local businesses ranging from static, dynamic to ecommerce.
 					</p>
 				</div>
 				
@@ -694,29 +694,29 @@
 			<div class="resume-items">
 				
 				<div class="resume-item border-line-h">
-					<div class="date">2006 - 2008</div>
-					<div class="name">Art University</div>
-					<div class="company">New York</div>
+					<div class="date">2021 - 2021</div>
+					<div class="name">The Open University</div>
+					<div class="company">Online - Remote</div>
 					<p>
-						Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri
+						Microcredential on AWS Solution Architect
 					</p>
 				</div>
 				
 				<div class="resume-item border-line-h">
-					<div class="date">2005 - 2006</div>
-					<div class="name">Programming Course</div>
-					<div class="company">Paris</div>
+					<div class="date">2009 - 2013</div>
+					<div class="name">Computing Course</div>
+					<div class="company">Perth College UHI</div>
 					<p>
-						Coursework - Git, WordPress, Javascript, iOS, Android.
+						Bachelor's Degree in Computing from Perth College UHI, Scotland.
 					</p>
 				</div>
 				
 				<div class="resume-item">
-					<div class="date">2004 - 2005</div>
-					<div class="name">Web Design Course</div>
-					<div class="company">London</div>
+					<div class="date">2020 - Present</div>
+					<div class="name">Full Stack Dev bootcamp</div>
+					<div class="company">Freecodecamp</div>
 					<p>
-						Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript
+						Studying Freecodecamps full stack curriculum.
 					</p>
 				</div>
 				
@@ -821,7 +821,7 @@
 		</div>
 		
 		<!-- skill item -->
-		<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+		<!-- <div class="col col-d-6 col-t-6 col-m-12 border-line-v">
 			<div class="skills-list circles">
 				<div class="skill-title border-line-h">
 					<div class="icon"><i class="ion ion-code"></i></div>
@@ -859,45 +859,76 @@
 					
 				</ul>
 			</div>
-		</div>
+		</div> -->
 		
 		<!-- skill item -->
 		<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
 			<div class="skills-list list">
 				<div class="skill-title border-line-h">
 					<div class="icon"><i class="ion ion-android-list"></i></div>
-					<div class="name">Knowledge</div>
+					<div class="name">Languages</div>
 				</div>
 				<ul>
 					
 					<li> 
 						<div class="name">Website hosting</div>
 					</li>
-					
 					<li> 
 						<div class="name">iOS and android apps</div>
 					</li>
-					
 					<li> 
 						<div class="name">Create logo design</div>
 					</li>
-					
 					<li> 
 						<div class="name">Design for print</div>
 					</li>
-					
 					<li> 
 						<div class="name">Modern and mobile-ready</div>
 					</li>
-					
 					<li> 
 						<div class="name">Advertising services include</div>
 					</li>
-					
 					<li> 
 						<div class="name">Graphics and animations</div>
 					</li>
+					<li> 
+						<div class="name">Search engine marketing</div>
+					</li>
+						
+				</ul>
+			</div>
+			
+		</div>
+
+		<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+			<div class="skills-list list">
+				<div class="skill-title border-line-h">
+					<div class="icon"><i class="ion ion-android-list"></i></div>
+					<div class="name">Frameworks</div>
+				</div>
+				<ul>
 					
+					<li> 
+						<div class="name">Website hosting</div>
+					</li>
+					<li> 
+						<div class="name">iOS and android apps</div>
+					</li>
+					<li> 
+						<div class="name">Create logo design</div>
+					</li>				
+					<li> 
+						<div class="name">Design for print</div>
+					</li>				
+					<li> 
+						<div class="name">Modern and mobile-ready</div>
+					</li>				
+					<li> 
+						<div class="name">Advertising services include</div>
+					</li>				
+					<li> 
+						<div class="name">Graphics and animations</div>
+					</li>				
 					<li> 
 						<div class="name">Search engine marketing</div>
 					</li>
@@ -905,11 +936,85 @@
 				</ul>
 			</div>
 		</div>
+
+		<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+			<div class="skills-list list">
+				<div class="skill-title border-line-h">
+					<div class="icon"><i class="ion ion-android-list"></i></div>
+					<div class="name">Tools</div>
+				</div>
+				<ul>
+					
+					<li> 
+						<div class="name">Website hosting</div>
+					</li>
+					<li> 
+						<div class="name">iOS and android apps</div>
+					</li>
+					<li> 
+						<div class="name">Create logo design</div>
+					</li>
+					<li> 
+						<div class="name">Design for print</div>
+					</li>
+					<li> 
+						<div class="name">Modern and mobile-ready</div>
+					</li>
+					<li> 
+						<div class="name">Advertising services include</div>
+					</li>
+					<li> 
+						<div class="name">Graphics and animations</div>
+					</li>
+					<li> 
+						<div class="name">Search engine marketing</div>
+					</li>
+						
+				</ul>
+			</div>
+			
+		</div>
+
+		<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+			<div class="skills-list list">
+				<div class="skill-title border-line-h">
+					<div class="icon"><i class="ion ion-android-list"></i></div>
+					<div class="name">Design</div>
+				</div>
+				<ul>
+					
+					<li> 
+						<div class="name">Website hosting</div>
+					</li>
+					<li> 
+						<div class="name">iOS and android apps</div>
+					</li>
+					<li> 
+						<div class="name">Create logo design</div>
+					</li>
+					<li> 
+						<div class="name">Design for print</div>
+					</li>
+					<li> 
+						<div class="name">Modern and mobile-ready</div>
+					</li>
+					<li> 
+						<div class="name">Advertising services include</div>
+					</li>
+					<li> 
+						<div class="name">Graphics and animations</div>
+					</li>
+					<li> 
+						<div class="name">Search engine marketing</div>
+					</li>
+						
+				</ul>
+			</div>
+			
+		</div>
 		
 		<div class="clear"></div>
 	</div>
-	
-</div>
 		
 	</div>
 </div>
